@@ -120,7 +120,7 @@ function sum(dailywage) {
 
 }
 empDailyWageArr.forEach(sum);
-console.log("UC7A Total Days: " + totalWorkingDays + "Total Hrs: " + totalEmplHrs + "Employee wage: " + empWage)
+console.log("UC7A Total Days: " + totalWorkingDays + "Total Hrs: " + totalEmployeeHrs + "Employee wage: " + empwage)
 function totalWages(totalWage, dailywage) {
     return totalWage + dailywage;
 }
@@ -174,3 +174,4 @@ function totalDaysWorked(numOfDays, dailywage) {
 }
 
 console.log("UC 76 Number of Days Emp Worked: " + empDailyWageArr.reduce(totalDaysWorked, 0));
+
