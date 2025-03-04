@@ -85,7 +85,6 @@ console.log(
 );
 
 // UC6 Storing daily wages in an array
-
 function calcDailyWage(empHrs) {
   return empHrs * WAGE_PER_HOUR;
 }
